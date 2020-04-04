@@ -1,0 +1,360 @@
+/* imported from https://materializecss.com/footer.html */
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-size: 16px;
+	font-family: 'Roboto', serif;
+	line-height: 100%;
+}
+
+nav {
+	font-family: 'Tinos', serif;
+	background-color: #ffffff;
+}
+
+.nav-btns a{
+	color: #000000;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+p {
+	line-height: 150%;
+}
+
+.default-width-container {
+	width: 1392px !important;
+}
+
+.page-footer {
+	background-color: #364958;
+}
+
+.title, .subtitle, h1, h2, h3, h4 {
+	font-family: 'Tinos', serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.title {
+	font-size: 4.5rem;
+	line-height: 5.1875rem;
+}
+
+.subtitle {
+	font-weight: bold;
+	font-size: 3.5rem;
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 2.25rem;
+	line-height: 16px;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 50%;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1.75rem;
+	line-height: 57%;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1rem;
+	line-height: 100%;
+}
+
+.footer-icons {
+	display: grid;
+	max-width: 135px;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 18px;
+	padding: 27px 0;
+	margin: auto;
+	
+}
+.footer-icon {
+	font-size: 2.8125rem;
+}
+
+.footer-copyright-word {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.main-btn {
+	padding: 0 144px;
+}
+
+.blue-monkey-btn {
+	color: #5695B3;
+	background-color: transparent;
+	border: 1px solid #cccccc;
+}
+
+.blue-monkey-btn:hover {
+	color: #ffffff;
+	background-color: #5695B3;
+	border-color: #5695B3;
+} 
+
+.mailing-list-btn {
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+.mailing-list-btn:hover {
+	background-color: white;
+	color: #4EAAD0;
+
+}
+.main-image {
+	width: 100%;
+}
+
+.store-image {
+	width: 100%;
+	height: 117px;
+}
+
+.content {
+	height: 100%;
+	padding: 120px 0;
+}
+
+.mailing-list-container {
+	text-align: center;
+	background-color: #4EAAD0;
+	color: #ffffff;
+	padding: 96px 0;
+}
+
+.mailing-list-container p {
+	margin: 48px auto;
+	width: 49.137931%;
+}
+.footer-icon-link, .footer-icon-link:visited .footer-icon-link:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.intro-text {
+	padding-top: 50px;
+	padding-bottom: 42px;
+	width: 96.8396%;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 90vh;
+}
+
+.about-page-jumbotron, .products-page-jumbotron {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.about-page-jumbotron {
+	background-image: url('../images/about-page-jumbotron-image.png');
+}
+
+.products-page-jumbotron {
+	background-image: url('../images/products-page-jumbotron.png');
+}
+
+.jumbotron-contents {
+	position: absolute;
+	color: #ffffff;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.jumbotron-contents-exp {
+	margin-top: 140px;
+}
+
+.tab-container {
+	padding: 160px 0;
+}
+
+.about-tab-container-intro {
+	margin-bottom: 96px;
+}
+
+.about-tab-container-heading {
+	margin-bottom: 60px;
+}
+
+.owner-tab-container-heading {
+	margin-bottom: 40px;
+	text-align: center;
+	line-height: 150%;
+}
+
+.owner-tab-container-exp {
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+.owner-box {
+	width: 70%;
+	margin: 0 auto;
+}
+.tab-container-image {
+	width: 100%;
+}
+
+.owner-container-image-link {
+	width: 100%;
+}
+
+.owner-container-image {
+	width: 100%;
+	text-align: center;
+}
+.about-tab-container-small-heading {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.form-submit-btn {
+	width: 100%;
+}
+
+.form-submit-btn input[type=submit] {
+	color: #5695B3;
+	background-color: transparent;
+	font-size: 0.75rem;
+}
+
+.form-submit-btn input[type=submit]:hover {
+	color: #ffffff;
+	background-color: #5695B3;
+}
+
+.warning-text {
+	font-style: italic;
+	font-size: 1.5rem;
+	line-height: 150%;
+	color: #BB0000;
+}
+
+.map-iframe {
+	width: 100%;
+}
+
+tr {
+	border: none;
+}
+.cell-header {
+	line-height: 100%;
+	text-align: left;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.left-align {
+	text-align: left;
+}
+
+.location-tab-container-box {
+	margin: 60px 0;
+}
+
+/*
+	referred Emmanouil Kafieris's Answer from https://stackoverflow.com/questions/41406689/change-the-color-of-tab-text-and-the-underline-in-materialize-framework
+*/
+
+.tabs .tab a {
+  color: rgba(99, 112, 129, 0.7);
+  /*Custom Text Color*/
+}
+
+.tabs .tab a:hover {
+  color:#637081;
+  /*Custom Color On Hover*/
+}
+
+.tabs .tab a:focus.active {
+  color:#637081;
+  /*Custom Text Color While Active*/
+  background-color: rgba(99, 112, 129, 0.2);
+  /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+  background-color:#637081;
+  /*Custom Color Of Indicator*/
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color:#637081;
+}
+
+.product-card {
+	text-align: center;
+}
+.product-card-image img {
+	height: 160px;
+}
+.product-card-heading {
+	margin-top: 30px;
+	margin-bottom: 16px;
+	font-family: 'Roboto', serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.product-detail-link, .product-detail-link:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.product-detail-link:hover {
+	text-decoration: underline;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.coming-soon-text {
+	margin: 80px 0;
+}
+
+.product-detail-content {
+	padding: 160px 0;
+}
+
+.product-detail-row {
+	display: flex;
+	max-width: 300px;
+	justify-content: space-between;
+}
+
+#quantity {
+	margin-bottom: 0;
+	height: 1.2rem;
+}
+.product-detail-name {
+	margin-bottom: 40px;
+}
+.product-detail-header {
+	margin-bottom: 24px;
+}
+
+.product-detail-row {
+	margin-bottom: 40px;
+}

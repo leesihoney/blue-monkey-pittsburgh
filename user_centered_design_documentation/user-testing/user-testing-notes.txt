@@ -1,0 +1,31 @@
+Introduction Script
+
+Hi, I’m Andrew Lee. Thank you for your time and help with this project. I’m conducting a study with my Information System project. In this project, we’re trying to learn more about the usability of Blue Monkey Pittsburgh website. I’ll speak aloud actions that I want you to do from Blue Monkey Pittsburgh website. Then, I will observe how you achieve the goals of my requests I’ll not ask you any questions while you are conducting any actions. Please speak out the words that come up with your thoughts while you are performing the actions. 
+
+Firstly, I would like to let you know that this interview is completely voluntary. You can always decline to answer a question. If you feel like you need to drop out of participating in this study, or if you need to take a break at any time, please let me know. Secondly, the interview process will be recorded through video/audio as anonymously as possible. Do I have your permission to do video/audio recording? (Wait for response…) ...Thank you. All the data collected and recorded will be confidential and anonymous. Your name will be kept as confidential as possible and will not appear in any document or discussion. We will use this data only for the project purposes of the course. Also, our study won’t be used to evaluate you or what you do in any way, we are using them to evaluate Blue Monkey Website.  The design ideas that emerge will be aimed at generally improving processes, not you.
+
+Your participation in this study will help us improve the Blue Monkey Website. Thanks! If you have any other concerns, please let me know! 
+
+
+1. Tell me the price of green tea
+2. Tell me when does the Pittsburgh store close on Sundays.
+3. Sign up for the mailing list
+4. Tell me the address of the shop
+5. Tell me when is the shop most crowded on Sundays.
+
+Recording: https://drive.google.com/file/d/1bR37aLMvgyT6XjllXpov2mHRJBxlhGhk/view?usp=sharing
+
+Notes
+
+- triggered by a large button and page
+- He actually reads the sentence at the main page. He says that the there are many teas because the text says that there are about 400 teas.
+- used the link on the landing page to visit the mailing list sign-up page.
+- The user is not so certain about going to a contacts page. He just goes to the landing page since he is not sure whether the page is located.
+- He likes the hover effect of the graphs from the highchart
+- Not sure about his actions for finding the close time of the store ("seems like the about page has the info....", "location seems like....")
+
+
+Analysis
+
+According to the think-aloud user testing session. The user came up with two main problems: lack of guidance for mailing list page and lack of feedback when the form is submitted. During the interview, the interviewer was not sure where to click when he was told to check the closing hour of the store while he was at the products page. Also, he was unsure where the mailing list form is located after he was located in the location tab. He successfully filled in the form and submitted but he did not know that the form was being submitted. To address these problems, I decide to add a new navigation bar button for contacts page so that users can find the contacts page easily. I decided to add an alert box after the form is submitted. To highlight the tab bar, I decide to reduce the size of the main jumbotron page so that the tab bar appears right away when the user enters into the page.
+

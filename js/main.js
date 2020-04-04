@@ -12,6 +12,9 @@ const mailingListFormValidation = () => {
 	};
 }
 
+const delay = t => new Promise(resolve => setTimeout(resolve, t));
+
+
 const handleSubmit = () => {
 	const mailingListForm = document.querySelector("#mailing-list-signup-form");
 	const phoneNumberInput = mailingListForm["phone-number"].value;
@@ -23,7 +26,6 @@ const handleSubmit = () => {
 	if (isNaN(zipcodeInput) || zipcodeInput.length !== 5) {
 		alert("Please Enter Your 5-digit zipcodes");
 		return false;
-
 	}
 	alert("Your form has been successfully submitted");
 	mailingListForm["first-name"].value = "";
@@ -33,10 +35,6 @@ const handleSubmit = () => {
 	mailingListForm["phone-number"].value = "";
 	return true;
 } 
-
-/*
-	initializeCarousel code is from https://materializecss.com/carousel.html#five!
-*/
 
 const initializeGraph = () => {
 	$(function() {
@@ -94,11 +92,15 @@ const handleUpdate = event => {
 	if (event) {
 		event.preventDefault();
 	}
-	const priceText = document.querySelector('#price').innerText;
-	const price = parseInt(priceText.substring(1, priceText.length));
-	const quantity = document.querySelector('#quantity').value;
-	const totalPrice = document.querySelector('#total-price');
-	totalPrice.innerText = `$${(price * quantity)/1.00}`;
+	const priceText = document.querySelector('#price');
+	if (priceText) {
+		const price = parseInt(priceText.innerText.substring(1, priceText.innerText.length));
+		const quantity = document.querySelector('#quantity');
+		const totalPrice = document.querySelector('#total-price');
+		if (priceText && price && quantity && totalPrice) {
+			totalPrice.innerText = `$${(price * quantity.value)/1.00}`;
+		}
+	}
 }
 
 const updateTotalPrice = () => {
@@ -109,8 +111,6 @@ const updateTotalPrice = () => {
 	};
 
 }
-
-
 const main = () => {
 	initializeTabs();
 	initializeGallery();
